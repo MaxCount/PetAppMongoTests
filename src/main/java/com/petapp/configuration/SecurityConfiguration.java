@@ -62,7 +62,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
                 .permitAll()
                     .antMatchers(HttpMethod.GET, "/petapp/comment/**")
                     .permitAll()
-                .anyRequest().authenticated()
+                .anyRequest()
+                    .authenticated()
                 .and().httpBasic();
 
         http.addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
