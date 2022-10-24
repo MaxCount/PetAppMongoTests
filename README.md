@@ -31,8 +31,11 @@ Congratulations!! You successfully started unit tests
 ---------Installation and starting progect ---------
 
  1)Download zip archive of progect
+ 
  2)Open progect in yoer IDE
+ 
  3)Configure mongodb in application.properties and check all maven dependencies
+ 
  4)Select run 'PetAppApplication' and press run button or Shift+F10
  
  ----------------------------------------------------
